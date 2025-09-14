@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+sqlalchemy>=2.0.35  # Update to latest 2.x for better compatibility
+psycopg2-binary>=2.9.9  # Latest version
+pydantic>=2.8.2
+pydantic-settings>=0.2.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+google-generativeai>=0.8.3
+qdrant-client>=1.11.0
+requests>=2.32.3
